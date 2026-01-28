@@ -27,3 +27,7 @@ This project uses KMK firmware.
 - 4x M3x8 Bolt
 - 4x M2x5 Socket Head Cap Screw
 - PCB (2 layers)
+
+### DRC Note
+
+KiCad reports a board edge clearance warning near the LED cutout.This is caused by the LED footprint pads being very close to the cutout. The cutout is intentional and the warning was reviewed and accepted.
